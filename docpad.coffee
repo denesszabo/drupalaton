@@ -7,14 +7,14 @@ module.exports =
 
     # Conference info
     conf:
-      name: "Conference name"
-      description: "Conference description"
-      date: "November 15"
-      price: "$100"
-      venue: "Coco Bongo"
-      address: "Boulevard Kukulcan, 30"
-      city: "Cancún"
-      state: "Quintana"
+      name: "Drupalaton"
+      description: "Drupal conf @ Lake Balaton Hungary"
+      date: "August 15-18"
+      price: "$100?"
+      venue: "Hotel || Dormitory"
+      address: "Keszthely, Festetich György Street 40, Hungary"
+      city: "Keszthely"
+      state: ""
 
     # Site info
     site:
@@ -28,11 +28,11 @@ module.exports =
     sections: [
       'about'
       'location'
-      'speakers'
-      'schedule'
+      #'speakers'
+      #'schedule'
       'sponsors'
-      'partners'
-      #'contact'
+      #'partners'
+      'contact'
     ]
 
     # Labels which you can translate to other languages
