@@ -9,18 +9,18 @@ module.exports =
     conf:
       name: "Drupalaton"
       description: "Drupal conf @ Lake Balaton Hungary"
-      date: "August 15-18"
+      date: "August 15-18, 2013"
       price: "$100?"
-      venue: "Hotel || Dormitory"
-      address: "Keszthely, Festetich György Street 40, Hungary"
+      venue: "Hotel Helikon"
+      address: "8360 Keszthely, Balatonpart 5, Hungary, Hotel Helikon"
       city: "Keszthely"
-      state: ""
+      state: "Hungary"
 
     # Site info
     site:
       theme: "yellow-swan"
       url: "http://confboilerplate.com"
-      googleanalytics: "UA-33656081-1"
+      googleanalytics: ""
 
     # Active sections on the website
     # to deactivate comment out with '#'
@@ -28,10 +28,12 @@ module.exports =
     sections: [
       'about'
       'location'
+      'sessionproposals'
       #'speakers'
       #'schedule'
       'sponsors'
       #'partners'
+      'twitter'
       'contact'
     ]
 
@@ -43,7 +45,10 @@ module.exports =
       schedule: "Schedule"
       sponsors: "Sponsors"
       partners: "Partners"
+      twitter: "Twitter"
       contact: "Contact"
+      sessionproposals: "Session proposals"
+      
 
     # The entire schedule
     schedule: [

@@ -1,6 +1,15 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
+<p>Remember Drupaltown? Now we bring it to the next level. The Hungarian Drupal community is pleased to announce Drupalake, the longest DrupaCamp on the Globe. An event taking place at the breathtaking shore of the biggest warm-water lake in Europe, lake Balaton, Hungary. Four days in perfect balance of work and leisure, sessions, sprints, beach sports, great food, world class wines, ultimate awesomeness day and night. This is Drupalaton.</p>
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
+<p>Date: 15-18 August 2013.<br /> 
+Place: Lake Balaton, Keszthely, Hungary<br />
+Venue: <a href="http://hotelhelikon.hu/en/">Hotel Helikon</a></p>
 
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+<h2>About Keszthely</h2>
+
+<p>The city of Keszthely is located in the northern west end of <a href="http://en.wikipedia.org/wiki/Lake_Balaton">Lake Balaton</a>, on the shore of one of the biggest lakes in <a href="http://en.wikipedia.org/wiki/Central_Europe">Central Europe</a>. The city is surrounded by forests and rolling hills to the north, plains to the south east and the lake. South from the city lies Kis-Balaton (Little Balaton), a swamp which is a part of the <a href="http://en.wikipedia.org/wiki/Zala_river">Zala river</a> delta of and which acts as a natural water purifier for Lake Balaton. The swamp is particularly known as a water fowl habitat and enjoys international recognition and protection as a natural reserve.</p>
+
+<p>The city also enjoys the proximity of <a href="http://en.wikipedia.org/wiki/Hévíz">Hévíz</a>, a town famous for its spa and health services. Keszthely is very close to some northern Balaton wine regions which are known to produce high quality white wines from locally cultivated varieties.</p>
+
+<h2>History of Drupalaton</h2>
+<p>This is the third time in a row that fellow Hungarian drupalists are organizing a camp at this beautiful place. Previous events were using Hungarian as a working language, last year we had some 50 Drupal geeks from all around Hungary and the neighbourhood. Each event was a huge success, participants were barely willing to leave the camp after the wonderful time they had together.</p>

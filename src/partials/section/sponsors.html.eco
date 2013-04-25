@@ -1,6 +1,53 @@
 <h2 class="section-title"><%= @labels['sponsors'] %></h2>
-<ul class="sponsors-list">
 
+
+<h2>Sponsor package offers</h2>
+ 
+<h3>Diamond - 1500€ (2 available)</h3>
+<ul>
+<li>Big size logo on the sponsor page of the Drupalaton 2013 web site</li>
+<li>Big size sponsor logo on the screensavers in the breaks between sessions</li>
+<li>Prime logo placement on Drupalaton 2013 t-shirt</li>
+<li>5 attendee slots</li>
+<li>Option to place advertising materials in attendee swag bag</li>
+<li>Event room named after your company through a day</li>
+<li>Sponsor logo on the sidebar of the Drupalaton 2013 web site</li>
+<li>Presentation of Sponsor during the event - 5 mins</li>
+<li>A place for the poster of your company</li>
+<li>Post at the event blog (after the event)</li>
+<li>Frequent tweets before, during, and after event from Drupalaton Twitter account</li>
+<li>Sending an advertisement newsletter for the participants of the event (1 letter)</li>
+</ul>
+
+<h3>Gold - 750€ (6 available)</h3>
+<ul>
+<li>Middle size logo on the sponsor page of the web site</li>
+<li>Middle size sponsor logo on the screensavers in the breaks between sessions</li>
+<li>Secondary logo placement on Drupalaton 2013 t-shirt</li>
+<li>3 attendee slots</li>
+<li>Option to place advertising materials in attendee swag bag</li>
+<li>Presentation of Sponsor during the event - 5 mins</li>
+<li>A place for the poster of your company</li>
+<li>Announcement tweet of sponsorship from Drupalaton Twitter account</li>
+</ul>
+
+<h3>Silver - 500€ (unlimited)</h3>
+<ul>
+<li>Small size logo on the sponsor page of the web site</li>
+<li>Small size sponsor logo on the screensavers in the breaks between sessions</li>
+<li>Option to place advertising materials in attendee swag bag</li>
+<li>Announcement tweet of sponsorship from Drupalaton Twitter account</li>
+</ul>
+
+<h3>Community - 2 x ticket price? (unlimited)</h3>
+<ul>
+<li>1 attendee slot</li>
+<li>Community sponsor T-shirt (special color)</li>
+<li>gift, e.g. Drupalaton mug</li>
+</ul>
+
+
+<ul class="sponsors-list">
 <% for sponsor in @sponsors: %>
   <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
     <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">

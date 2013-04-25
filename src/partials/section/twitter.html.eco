@@ -1,0 +1,3 @@
+<h2 class="section-title"><%= @labels['twitter'] %></h2>
+
+<p>Follow us on the Twitter [link our twitter account] and use #drupalaton hashtag!</p>
