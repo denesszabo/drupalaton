@@ -1,7 +1,7 @@
 var geocoder,
     map,
     google,
-    icon = 'img/marker-default.png';
+    icon = 'themes/yellow-swan/img/marker-default.png';
 
 function initialize() {
     'use strict';
@@ -29,7 +29,7 @@ $(document).ready(function () {
     $('#map-canvas').each(function () {
 
         var address = $(this).attr('data-address');
-
+console.log(address);
         geocoder = new google.maps.Geocoder();
 
         initialize();
