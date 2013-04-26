@@ -10,9 +10,9 @@ module.exports =
       name: "Drupalaton"
       description: "Drupal conf @ Lake Balaton Hungary"
       date: "August 15-18, 2013"
-      price: "40€"
+      price: ""
       venue: "Hotel Helikon"
-      address: "8360 Keszthely, Balatonpart street 5., Hungary, Hotel Helikon"
+      address: "8360 Keszthely, Balatonpart 5, Hungary, Hotel Helikon"
       city: "Keszthely"
       state: "Hungary"
 
