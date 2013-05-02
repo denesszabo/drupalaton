@@ -33,8 +33,9 @@ module.exports =
       #'schedule'
       'sponsors'
       #'partners'
-      'twitter'
-      'contact'
+      #'twitter'
+      #'contact'
+      'contactmin'
     ]
 
     # Labels which you can translate to other languages
@@ -47,8 +48,9 @@ module.exports =
       partners: "Partners"
       twitter: "Twitter"
       contact: "Contact"
+      contactmin: "Contact"
       sessionproposals: "Session proposals"
-      
+
 
     # The entire schedule
     schedule: [
