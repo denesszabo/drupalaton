@@ -2,7 +2,7 @@
 
 
 <h2>Sponsor package offers</h2>
- 
+
 <h3>Diamond - 1500€ (2 available)</h3>
 <ul>
 <li>Big size logo on the sponsor page of the Drupalaton 2013 web site</li>
@@ -39,25 +39,20 @@
 <li>Announcement tweet of sponsorship from Drupalaton Twitter account</li>
 </ul>
 
-<h3>Community - 2 x ticket price? (unlimited)</h3>
-<ul>
-<li>1 attendee slot</li>
-<li>Community sponsor T-shirt (special color)</li>
-<li>gift, e.g. Drupalaton mug</li>
-</ul>
 
-
-<ul class="sponsors-list">
-<% for sponsor in @sponsors: %>
-  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">
-      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
-    </a>
-  </li>
+<% if @sponsors: %>
+  <ul class="sponsors-list">
+  <% for sponsor in @sponsors: %>
+    <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+      <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">
+        <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
+      </a>
+    </li>
+  <% end %>
+    <li class="sponsor-item">
+      <a class="sponsor-logo sponsor-link sponsor-call" href="#">
+        <img src="<%= @getTheme() %>/img/your-logo.jpg" alt="your logo" class="photo">
+      </a>
+    </li>
+  </ul>
 <% end %>
-  <li class="sponsor-item">
-    <a class="sponsor-logo sponsor-link sponsor-call" href="#">
-    	<img src="<%= @getTheme() %>/img/your-logo.jpg" alt="your logo" class="photo">
-    </a>
-  </li>
-</ul>

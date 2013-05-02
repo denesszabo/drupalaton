@@ -1,3 +1,3 @@
 <h2 class="section-title"><%= @labels['sessionproposals'] %></h2>
 
-<p>We need speakers! If you have a good idea for our conference, please send it to us with this <a href="https://docs.google.com/a/internode.hu/forms/d/1BSuc0AMwetnhSpwo6bwjDbiK3ZpJzuhodD06Fv-aNW8/viewform">form</a>.</p>
+<p>We need speakers! If you have a good idea for our conference, please send it to us with this <a href="https://docs.google.com/forms/d/1CwdI7YQk5AK0AWldlqZ5qdSUIQBgXGxN1QUIQcq3XpE/viewform">form</a>.</p>
