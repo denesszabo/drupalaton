@@ -12,15 +12,15 @@ module.exports =
       date: "August 15-18, 2013"
       price: ""
       venue: "Hotel Helikon"
-      address: "8360 Keszthely, Balatonpart 5, Hungary, Hotel Helikon"
+      address: "46.761217,17.256006"
       city: "Keszthely"
       state: "Hungary"
 
     # Site info
     site:
       theme: "drupalaton"
-      url: "http://confboilerplate.com"
-      googleanalytics: ""
+      url: "http://drupalaton.hu"
+      googleanalytics: "UA-40638603-1"
 
     # Active sections on the website
     # to deactivate comment out with '#'
