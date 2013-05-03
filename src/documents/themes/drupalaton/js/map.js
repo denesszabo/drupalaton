@@ -8,7 +8,7 @@ function initialize() {
 
     geocoder = new google.maps.Geocoder();
 
-    var latlng = new google.maps.LatLng(46.761217,17.255006),
+    var latlng = new google.maps.LatLng(46.761217,17.257006),
         myOptions = {
             zoom: 16,
             center: latlng,
@@ -33,7 +33,7 @@ $(document).ready(function () {
         geocoder = new google.maps.Geocoder();
 
         initialize();
-    var latlng = new google.maps.LatLng(46.761217,17.255006);
+    var latlng = new google.maps.LatLng(46.761217,17.257006);
         geocoder.geocode({ 'address': address}, function (results, status) {
 
             if (status === google.maps.GeocoderStatus.OK) {
