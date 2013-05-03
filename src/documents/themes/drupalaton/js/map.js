@@ -1,7 +1,7 @@
 var geocoder,
     map,
     google,
-    icon = 'themes/yellow-swan/img/marker-drupalaton.png';
+    icon = 'themes/drupalaton/img/marker-drupalaton.png';
 
 function initialize() {
     'use strict';
@@ -33,15 +33,15 @@ $(document).ready(function () {
         geocoder = new google.maps.Geocoder();
 
         initialize();
-	var latlng = new google.maps.LatLng(37.0625,-95.677068);
+    var latlng = new google.maps.LatLng(37.0625,-95.677068);
         geocoder.geocode({ 'address': address}, function (results, status) {
 
             if (status === google.maps.GeocoderStatus.OK) {
 
                 map.setCenter(results[0].geometry.location);
 //console.log(results[0].geometry.location);
-	    /*
-	     * Q { jb=
+        /*
+         * Q { jb=
 
 46.75943290000001
 
@@ -50,9 +50,9 @@ $(document).ready(function () {
 17.25181699999996
 
 , toString=function(), more...}
-	     */
-	    //results[0].geometry.location.jb = 46.76;
-	    //results[0].geometry.location.kb = 17.25181699999996;
+         */
+        //results[0].geometry.location.jb = 46.76;
+        //results[0].geometry.location.kb = 17.25181699999996;
                 new google.maps.Marker({
                     map: map,
                     position: results[0].geometry.location,

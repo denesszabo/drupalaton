@@ -1,34 +1,20 @@
-
-<!-- HEADER -->
-<header class="header">
-  <div class="wrapper">
-    <h1 class="logo-name">
-      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
-    </h1>
-    <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
-    <div class="call-action-area">
-      <!-- <span class="price">Only <%= @conf.price %></span>
-      <a href="http://eventick.com.br" class="call-action-link" title="Register now!">Register now!</a> -->
-
-      <div class="join-newsletter">
-
-        <!-- Begin MailChimp Signup Form -->
-
-        <div id="mc_embed_signup">
-        <form action="http://drupal.us4.list-manage1.com/subscribe/post?u=8c9c7d47497f10b169c88b791&amp;id=24c4e902a7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <label for="mce-EMAIL">Join our newsletter. Receive the latest updates.</label>
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-        </form>
-        </div>
-
-        <!--End mc_embed_signup-->
-
-        <p class="twitter">You can also follow us on Twitter <a href="https://twitter.com/drupalaton" title="@Drupalaton on twitter">@Drupalaton</a> and #Drupalaton</p>
-      </div>
+<div class="landscape">
+  <div class="hills"></div>
+  <div class="logo">
+    <div class="logo-inner">
+      <img src="themes/drupalaton/img/logo.png" alt="Drupalaton logo" />
     </div>
   </div>
-</header>
-<!--  / HEADER -->
-
-<hr>
+  <div class="lake"></div>
+  <div class="info">
+    <h1>
+      <span></span>
+      Drupalaton, August 15-18, 2013, Hotel Helikon, Keszthely
+    </h1>
+  </div>
+  <div class="logo-link">
+    <div class="logo-link-inner">
+      <a href="/" title="Drupalaton" itemprop="name"></a>
+    </div>
+  </div>
+</div>

@@ -18,7 +18,7 @@ module.exports =
 
     # Site info
     site:
-      theme: "yellow-swan"
+      theme: "drupalaton"
       url: "http://confboilerplate.com"
       googleanalytics: ""
 

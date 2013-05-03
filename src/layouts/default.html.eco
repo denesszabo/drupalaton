@@ -19,11 +19,12 @@
   <meta property="og:image" content="<%= @getTheme() %>/img/badge.jpg">
   <!-- / FACEBOOK -->
 
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="<%= @getTheme() %>/img/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="<%= @getTheme() %>/img/apple-touch-icon.png">
 
   <!-- STYLES -->
-  <link rel="stylesheet" type="text/css" href="<%= @getTheme() %>/css/main.css">
+  <link rel="stylesheet" type="text/css" href="<%= @getTheme() %>/css/style.css">
   <!-- / STYLES -->
 
 </head>
@@ -35,17 +36,17 @@
     <%-@partial('header.html.eco', @)%>
 
     <!-- CONTENT -->
-    <div class="content" id="content">
+    <div class="content container_12" id="content">
       <div class="wrapper">
         <%- @content %>
       </div>
     </div>
     <!-- / CONTENT -->
 
-    <hr>
-
     <!-- FOOTER -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <%-@partial('footer.html.eco', @)%>
+    </footer>
     <!-- / FOOTER -->
 
   </div>
