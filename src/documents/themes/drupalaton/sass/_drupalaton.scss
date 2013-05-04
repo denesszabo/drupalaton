@@ -60,6 +60,20 @@ p {
   position: absolute;
   top: 162px;
 }
+.boats {
+  width: 100%;
+  position: relative;
+  top: 162px;
+  
+  #smallboat {
+    background: url("../img/boat_small.svg") no-repeat scroll 0 0 transparent;
+    height: 60px;
+    width: 30px;
+  }
+  .big {
+    background: url("../img/boat_big.svg") no-repeat scroll 0 0 transparent;
+  }
+}
 .lake {
   height: 800px;
   position: absolute;
