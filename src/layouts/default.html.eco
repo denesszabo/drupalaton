@@ -69,10 +69,31 @@
 
   </div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="<%= @getTheme() %>/js/jquery-1.8.3.min.js"><\/script>')</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="<%= @getTheme() %>/js/jquery-1.9.1.min.js"><\/script>')</script>
   <script src="<%= @getTheme() %>/js/main.js"></script>
+  <script src="<%= @getTheme() %>/js/jquery.scrollorama.js"></script>
+  <script>
+    $(document).ready(function() {
+      
+      var scrollorama = $.scrollorama({ blocks:'.boats' });
+      var width = $(document).width();
+      $('.boats').css('width', width);
+      
+      if (width >= 980) {
+        scrollorama.animate('#bigboat',{ delay: -640, duration: 800, property:'left', start:-10,end: 600  });
+        scrollorama.animate('#smallboat',{ delay: -550, duration: 700, property:'left', start:-10,end: 600  });
+    	}
+    	else if (width < 979 && width >= 600) {
+        scrollorama.animate('#bigboat',{ delay: -640, duration: 800, property:'left', start:-10,end: 600  });
+        scrollorama.animate('#smallboat',{ delay: -550, duration: 700, property:'left', start:-10,end: 600  });
+    	}
+    	else if (width < 600) {
 
+    	}      
+    });
+  </script>
+  
   <% if @conf.address != '': %>
   <script src="http://maps.google.com/maps/api/js?sensor=false&amp;anguage=en"></script>
   <script src="<%= @getTheme() %>/js/map.js"></script>
