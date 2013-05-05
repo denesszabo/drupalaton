@@ -354,8 +354,11 @@ div.newsletter {
     width: 100%;
     max-width: 599px;
   }
+  #nav ul {
+    padding-left: 20px;
+  }
   .landscape {
-    height: 574px;
+    height: 492px;
     
     .hills {
       width: 100%;
@@ -372,7 +375,7 @@ div.newsletter {
         
         img {
           margin: 0 20px 0 0;
-          width: 280px;
+          width: 180px;
         }
       }
     }
@@ -384,12 +387,15 @@ div.newsletter {
         max-width: 500px;
         
         span {
-          background-size: 485px auto;
+          background-size: 89% auto;
+          background-position: 18px 0;
+          margin-left: 0;
+          width: 100%;
         }
       }
     }
     .lake {
-      height: 574px;
+      height: 492px;
     }
     .logo-link-inner {
       width: 100%;
@@ -408,10 +414,10 @@ div.newsletter {
     h2 {
       float: none;
       width: 80%;
-      margin: 0 0 0 25px;
+      margin: 0 0 0 2%;
       
       &.middle {
-        margin: 20px 0 20px 25px;
+        margin: 20px 0 20px 2%;
       }
     }
   }
@@ -424,6 +430,29 @@ div.newsletter {
   .newsletter form {
     padding: 0 20px;
   }
+  div.twitter span,
+  div.newsletter span {
+    font-size: $base-font-size + 18;
+    line-height: 120%;
+  }
+  div.twitter {
+    span {
+
+    }
+  }
+  div.newsletter {
+    input.email {
+      float: none;
+      width: 80%;
+      margin: 20px 0 0 0;
+      text-align: center;
+    }
+    input.button {
+      width: 100%;
+      float: none;
+      margin: 20px 0 0 0;
+    }
+  }
   #nav ul li {
     float: none;
   }
@@ -431,9 +460,25 @@ div.newsletter {
     height: auto;
     width: 50%;
   }
+  #content h2.section-title {
+    font-size: $base-font-size * 3;
+  }
 }
 @media all and (max-width: 1300px) {
   .hills {
     background-position: -320px 0;
+  }
+}
+// iPhone 4, 4S Retina landscape
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  
+}
+
+// Standing retina screen
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 600px){
+  .landscape .info h1 span {
+    background-size: 270px auto;
+    margin-left: 0.2em;
+    width: 90%;
   }
 }
