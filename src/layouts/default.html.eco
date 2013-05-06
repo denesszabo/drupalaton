@@ -91,6 +91,18 @@
     	else if (width < 600) {
 
     	}      
+
+    $window = $(window);
+    $window.scroll(function(){
+      // lock the menu itself
+      if ($window.scrollTop() > 42) {
+        $('.navigation').addClass('fixed');
+      }
+      else {
+       $('.navigation').removeClass('fixed'); 
+      }
+    });
+    
     });
   </script>
   
