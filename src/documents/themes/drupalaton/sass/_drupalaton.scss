@@ -27,7 +27,7 @@ p {
  * navigation
  */
 .navigation {
-  height: 52px;
+  //height: 52px;
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -46,15 +46,18 @@ p {
 
   ul {
     @include clearfix;
+    text-align: center;
+    padding: 0 20px;
 
     li {
-      float: left;
-      margin-right: 15px;
+      //float: left;
+      display: inline;
+      margin: 0 15px;
 
       a {
         font-family: $oswald;
         font-weight: bold;
-        font-size: $base-font-size + 6;
+        font-size: $base-font-size + 12;
         color: $menuitemcolor;
         text-decoration: none;
         text-transform: uppercase;
