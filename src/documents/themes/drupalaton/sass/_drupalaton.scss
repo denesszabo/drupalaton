@@ -5,6 +5,10 @@ html {
   line-height: 160%;
   font-size: $base-font-size;
 }
+section {
+  padding-top: 60px;
+  margin-top: -60px; 
+}
 section ul li {
   font-family: $base-font-family;
   line-height: 160%;
