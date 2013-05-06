@@ -1,3 +1,9 @@
 <h2 class="section-title"><%= @labels['sessionproposals'] %></h2>
 
-<p>We need speakers! If you have a good idea for our conference, please send it to us with this <a href="https://docs.google.com/forms/d/1CwdI7YQk5AK0AWldlqZ5qdSUIQBgXGxN1QUIQcq3XpE/viewform">form</a>.</p>
+
+
+<p>Come, join us at Drupalaton and give a talk or a session together with great drupalists from organisations small and big in front of a curious group of international technologists, designers, students of Drupal.</p>
+
+<p>The language of the sessions is English only.</p>
+
+<p><a href="https://docs.google.com/forms/d/1CwdI7YQk5AK0AWldlqZ5qdSUIQBgXGxN1QUIQcq3XpE/viewform" class="tab-button">Submit a session</a>.</p>
