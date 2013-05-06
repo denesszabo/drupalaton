@@ -17,18 +17,45 @@ $(document).ready(function () {
   }
 
   $window = $(window);
-  if($window.scrollTop() > 42)
+  var $nav_height = $('.navigation').height();
+  if($window.scrollTop() > $nav_height)
   {
     $('.navigation').addClass('fixed');
+    //$('#scroll-wrap').css('padding-top', $nav_height + 'px');
   }
   $window.scroll(function () {
     // lock the menu itself
-    if ($window.scrollTop() > 42) {
+    $nav_height = $('.navigation').height();
+    if ($window.scrollTop() > $nav_height) {
       $('.navigation').addClass('fixed');
+      //$('#scroll-wrap').css('padding-top', $nav_height + 'px');
     }
     else {
       $('.navigation').removeClass('fixed');
+      //$('#scroll-wrap').css('padding-top', 0);
     }
   });
 
+
+
+  function changeTab($this) {
+    $('.tab-content').each(function () {
+      $(this).addClass('invisible');
+    });
+
+    var $current = $this + '-tab';
+    $($current).removeClass('invisible').slideDown({
+      duration: 'fast',
+      easing: 'linear'
+    });
+  }
+
+  var $hash = location.hash;
+  if ('#about-keszthely' == $hash || '#about-balaton' == $hash || '#history-drupalaton' == $hash ) {
+    changeTab($hash);
+  }
+
+  $('.tabs a').click(function() {
+    changeTab(this.hash);
+  });
 });

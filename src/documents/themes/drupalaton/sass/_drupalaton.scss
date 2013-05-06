@@ -208,52 +208,63 @@ p {
   margin-bottom: 40px;
   height: 54px;
 
+
   h2 {
     position: relative;
-    color: #ffffff;
-    font-family: $oswald;
-    font-weight: bold;
     display: block;
-    text-transform: uppercase;
-
-    font-size:$base-font-size + 8;
-    padding:14px 30px 10px 30px;
-    @include text-shadow(0 -2px #000000);
-    @include border-radius(6px);
-
-     -webkit-box-shadow: 0px 6px 0px #15648c;
-    -moz-box-shadow: 0px 6px 0px #15648c;
-    box-shadow: 0px 6px 0px #15648c;
-    background-color: #1675af;
-    width: 25%;
+    width: 30%;
     float: left;
     margin: 0;
-    text-align: center;
 
-      	-webkit-transform: translate(0, 0);
-  	-moz-transform: translate(0, 0);
-  	transform: translate(0, 0);
-
-  	-webkit-transition: all .2s ease;
-  	-moz-transition: all .2s ease;
-  	-ms-transition: all .2s ease;
-  	-o-transition: all .2s ease;
-  	transition: all .2s ease;
-
-    &:active {
-       -webkit-transform: translate(0, 3px);
-    	-moz-transform: translate(0, 3px);
-    	transform: translate(0, 3px);
-    }
     a {
+      display: block;
+      color: #ffffff;
       color: #fff;
-    }
+      font-family: $oswald;
+      font-weight: bold;
+      display: block;
+      text-transform: uppercase;
+
+      font-size:$base-font-size + 8;
+      padding:14px 30px 10px 30px;
+      @include text-shadow(0 -2px #000000);
+      @include border-radius(6px);
+
+       -webkit-box-shadow: 0px 6px 0px #15648c;
+      -moz-box-shadow: 0px 6px 0px #15648c;
+      box-shadow: 0px 6px 0px #15648c;
+      background-color: #1675af;
+
+      text-align: center;
+
+      -webkit-transform: translate(0, 0);
+      -moz-transform: translate(0, 0);
+      transform: translate(0, 0);
+
+      -webkit-transition: all .2s ease;
+      -moz-transition: all .2s ease;
+      -ms-transition: all .2s ease;
+      -o-transition: all .2s ease;
+      transition: all .2s ease;
+
+
+      &:active {
+         -webkit-transform: translate(0, 3px);
+        -moz-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+      }
+    } // tab a
+
 
     &.middle {
       margin: 0 20px;
     }
   }
 }
+
+.tab-content {
+}
+
 
 div.twitter {
   background-color: $sectiontitle;
