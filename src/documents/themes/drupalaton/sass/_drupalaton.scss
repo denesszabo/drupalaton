@@ -20,7 +20,7 @@ p {
 }
 
 .invisible {
-  @include element-invisible();
+  @include element-invisible;
 }
 
 /**
