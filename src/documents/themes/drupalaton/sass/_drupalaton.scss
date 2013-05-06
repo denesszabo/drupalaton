@@ -53,11 +53,12 @@ p {
       //float: left;
       display: inline;
       margin: 0 15px;
+      line-height: normal;
 
       a {
         font-family: $oswald;
         font-weight: bold;
-        font-size: $base-font-size + 12;
+        font-size: $base-font-size + 8;
         color: $menuitemcolor;
         text-decoration: none;
         text-transform: uppercase;
