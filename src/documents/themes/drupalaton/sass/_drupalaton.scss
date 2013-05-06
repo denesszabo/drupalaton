@@ -18,6 +18,11 @@ p {
   font-size: $base-font-size + 8;
   line-height: 140%;
 }
+
+.invisible {
+  @include element-invisible();
+}
+
 /**
  * navigation
  */
@@ -26,10 +31,10 @@ p {
   position: fixed;
   z-index: 10;
   width: 100%;
-  
+
   &.fixed {
     background-color: rgba(0, 0, 0, 0.6);
-    
+
     #nav ul li a {
       color: #fff;
     }
@@ -38,14 +43,14 @@ p {
 
 #nav {
   @include clearfix;
-    
+
   ul {
     @include clearfix;
-  
+
     li {
       float: left;
       margin-right: 15px;
-      
+
       a {
         font-family: $oswald;
         font-weight: bold;
@@ -80,7 +85,7 @@ p {
   height: 100px;
   margin: 0;
   top: 174px;
-  
+
   .boat {
     position: absolute;
   }
@@ -109,7 +114,7 @@ p {
   text-align: right;
   top: 189px;
   width: 100%;
-  
+
   a {
     display: block;
     margin: 0 auto;
@@ -126,7 +131,7 @@ p {
   position: absolute;
   top: 288px;
   width: 100%;
-  
+
   h1 {
     color: transparent;
     display: block;
@@ -135,7 +140,7 @@ p {
     text-indent: -9000em;
     width: 960px;
     margin: 0 auto;
-    
+
     span {
       background-repeat: no-repeat;
       display: block;
@@ -148,12 +153,12 @@ p {
 }
 .logo-link {
   width: 100%;
-  
+
   .logo-link-inner {
     width: 960px;
     margin: 0 auto;
     position: relative;
-    
+
     a {
       height: 74px;
       width: 345px;
@@ -170,7 +175,7 @@ p {
  */
 #content {
   margin-top: 60px;
-  
+
   h2.section-title{
     margin: 0;
     font-family: $oswald;
@@ -198,7 +203,7 @@ p {
 .tabs {
   margin-bottom: 40px;
   height: 54px;
-  
+
   h2 {
     position: relative;
     color: #ffffff;
@@ -206,7 +211,7 @@ p {
     font-weight: bold;
     display: block;
     text-transform: uppercase;
-    
+
     font-size:$base-font-size + 8;
     padding:14px 30px 10px 30px;
     @include text-shadow(0 -2px #000000);
@@ -220,17 +225,17 @@ p {
     float: left;
     margin: 0;
     text-align: center;
-      
+
       	-webkit-transform: translate(0, 0);
   	-moz-transform: translate(0, 0);
   	transform: translate(0, 0);
-  
+
   	-webkit-transition: all .2s ease;
   	-moz-transition: all .2s ease;
   	-ms-transition: all .2s ease;
   	-o-transition: all .2s ease;
   	transition: all .2s ease;
-      
+
     &:active {
        -webkit-transform: translate(0, 3px);
     	-moz-transform: translate(0, 3px);
@@ -239,7 +244,7 @@ p {
     a {
       color: #fff;
     }
-    
+
     &.middle {
       margin: 0 20px;
     }
@@ -249,7 +254,7 @@ p {
 div.twitter {
   background-color: $sectiontitle;
   padding: 60px 0;
-  
+
   span {
     display: block;
     font-family: $oswald;
@@ -258,7 +263,7 @@ div.twitter {
     line-height: 100%;
     font-size: $base-font-size * 4 + 11;
     font-weight: bold;
-    
+
     &.second {
       color: $twitterurl;
     }
@@ -267,7 +272,7 @@ div.twitter {
 div.newsletter {
   background-color: $menuitemcolor;
   padding: 60px 0;
-  
+
   span {
     display: block;
     font-family: $oswald;
@@ -276,7 +281,7 @@ div.newsletter {
     line-height: 100%;
     font-size: $base-font-size * 4 + 11;
     font-weight: bold;
-    
+
     &.second {
       color: $twitterurl;
     }
@@ -292,7 +297,7 @@ div.newsletter {
     font-weight: bold;
     display: block;
     text-transform: uppercase;
-    
+
     font-size:$base-font-size + 8;
     padding:14px 30px 10px 30px;
     @include border-radius(6px);
@@ -312,7 +317,7 @@ div.newsletter {
     font-weight: bold;
     display: block;
     text-transform: uppercase;
-    
+
     font-size:$base-font-size + 8;
     padding:14px 30px 10px 30px;
     @include text-shadow(0 -2px #000000);
@@ -324,7 +329,7 @@ div.newsletter {
     margin: 40px 0 0 0;
     text-align: center;
     border: 0;
-    
+
   }
 }
 .partner-link {
@@ -353,19 +358,19 @@ div.newsletter {
 }
 // big screen
 @media all and (min-width: 1340px) {
-  
+
 }
 // normal screen
 @media all and (min-width: 1000px) and (max-width: 1339px) {
-  
+
 }
 // tablet and small screen
 @media all and (min-width: 600px) and (max-width: 999px) {
-  
+
 }
 // landscape ipad tablet
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-  
+
 }
 // mobile device
 @media all and (max-width: 599px) {
@@ -382,7 +387,7 @@ div.newsletter {
   }
   .landscape {
     height: 492px;
-    
+
     .hills {
       width: 100%;
       background-position: -392px 0;
@@ -390,12 +395,12 @@ div.newsletter {
     .logo {
       top: 20px;
       right: 0;
-      
+
       .logo-inner {
         width: 100%;
         max-width: 599px;
         padding: 0;
-        
+
         img {
           margin: 0 20px 0 0;
           width: 180px;
@@ -404,11 +409,11 @@ div.newsletter {
     }
     .info {
       height: 262px;
-      
+
       h1 {
         width: 100%;
         max-width: 500px;
-        
+
         span {
           background-size: 89% auto;
           background-position: 18px 0;
@@ -423,22 +428,22 @@ div.newsletter {
     .logo-link-inner {
       width: 100%;
       max-width: 599px;
-      
+
       a {
         right: 17px;
         top: 4px;
       }
     }
   }
-  
+
   .tabs {
     height: auto;
-    
+
     h2 {
       float: none;
       width: 80%;
       margin: 0 0 0 2%;
-      
+
       &.middle {
         margin: 20px 0 20px 2%;
       }
@@ -494,7 +499,7 @@ div.newsletter {
 }
 // iPhone 4, 4S Retina landscape
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  
+
 }
 
 // Standing retina screen
