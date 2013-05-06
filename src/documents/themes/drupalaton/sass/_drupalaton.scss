@@ -5,10 +5,7 @@ html {
   line-height: 160%;
   font-size: $base-font-size;
 }
-section {
-  padding-top: 60px;
-  margin-top: -60px;
-}
+
 section ul li {
   font-family: $base-font-family;
   line-height: 160%;
@@ -184,7 +181,7 @@ p {
 #content {
 
   section {
-    padding-top: 4em;
+    padding-top: 4.5em;
   }
 
   h2.section-title{
@@ -214,7 +211,7 @@ p {
 }
 
 .tabs {
-  padding-top: 4em;
+  padding-top: 4.5em;
   margin-bottom: 40px;
   height: 54px;
 
