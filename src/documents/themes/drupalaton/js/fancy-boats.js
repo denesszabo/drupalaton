@@ -17,6 +17,10 @@ $(document).ready(function () {
   }
 
   $window = $(window);
+  if($window.scrollTop() > 42)
+  {
+    $('.navigation').addClass('fixed');
+  }
   $window.scroll(function () {
     // lock the menu itself
     if ($window.scrollTop() > 42) {
