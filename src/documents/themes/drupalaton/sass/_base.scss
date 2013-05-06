@@ -125,7 +125,7 @@ $tabs-border: #bbb;
   display: block;
   text-transform: uppercase;
 
-  font-size: $base-font-size + 8;
+  font-size: $base-font-size + 6;
   padding: 14px 30px 10px 30px;
   @include text-shadow(0 -2px #000000);
   @include border-radius(6px);
