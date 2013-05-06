@@ -1,2 +1,2 @@
 <h2 class="section-title"><%= @labels['contactmin'] %></h2>
-<p>If you have any question feel free to <a href="mailto:info@drupalaton.hu" title="Write to us!"> write us</a>!
+<p>If you have any question feel free to <a href="mailto:info@drupalaton.hu" title="Write to us!"> write to us</a>!
