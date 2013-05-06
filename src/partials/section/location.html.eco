@@ -1,7 +1,9 @@
 <h2 class="section-title"><%= @labels['location'] %></h2>
 
 <p>
-<%= @conf.venue %>, <%= @conf.address %>. <%= @conf.postcode %> <%= @conf.city %>, <%= @conf.state %>
+<%= @conf.venue %>, <%= @conf.address %>. <br />
+<%= @conf.postcode %> <%= @conf.city %>,<br />
+<%= @conf.state %>
 </p>
 <p class="invisible" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
   <span itemprop="streetAddress"><%= @conf.address %>. </span>
