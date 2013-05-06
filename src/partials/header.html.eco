@@ -1,8 +1,8 @@
 <div class="landscape">
   <div class="hills"></div>
   <div class="boats">
-  	<div class="boat small" id="smallboat"></div>
-  	<div class="boat big" id="bigboat"></div>
+    <div class="boat small" id="smallboat"></div>
+    <div class="boat big" id="bigboat"></div>
   </div>
   <div class="logo">
     <div class="logo-inner">
