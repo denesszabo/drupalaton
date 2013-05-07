@@ -5,7 +5,7 @@
 <span id="about-balaton"></span>
 <span id="history-drupalaton"></span>
 <div class="tabs">
-  <h2 class="first"><a href="#about-keszthely">About Keszthely</a></h2>
+  <h2 class="first"><a href="#about-keszthely" class="tab-open">About Keszthely</a></h2>
   <h2 class="middle"><a href="#about-balaton">About Balaton</a></h2>
   <h2 class="last"><a href="#history-drupalaton">History of Drupalaton</a></h2>
 </div>

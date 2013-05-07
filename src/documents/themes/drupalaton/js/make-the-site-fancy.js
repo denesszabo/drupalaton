@@ -54,8 +54,10 @@ $(document).ready(function () {
   if ('#about-keszthely' == $hash || '#about-balaton' == $hash || '#history-drupalaton' == $hash ) {
     changeTab($hash);
   }
-
+  
   $('.tabs a').click(function() {
+    $(".tabs a").removeClass("tab-open");
     changeTab(this.hash);
+    $(this).addClass("tab-open");
   });
 });
