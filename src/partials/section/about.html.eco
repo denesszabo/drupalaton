@@ -2,7 +2,17 @@
   <div class="wrapper">
     <div class="about-wrapper">
       <h2 class="section-title"><%= @labels['about'] %></h2>  
-      <p>Remember when we turned Szeged into the Drupaltown in 2008? Now we bring it to the next level. The Hungarian Drupal community is pleased to announce Drupalaton, the longest drupalcamp on the planet. An event taking place at the breathtaking shore of the biggest warm-water lake in Europe, at lake Balaton in Hungary. Four days in perfect balance of work and leisure, sessions, sprints, beach sports, great food, world class wines, ultimate awesomeness day and night. This is Drupalaton.</p>
+      <p>Remember when we turned Szeged into the Drupaltown in 2008? Now we bring it to the next level. The Hungarian Drupal community is pleased to announce Drupalaton, the longest drupalcamp on the planet. An event taking place at the breathtaking shore of the biggest warm-water lake in Europe, at lake Balaton in Hungary. Four days in perfect balance of work and leisure, sessions, sprints, beach sports, great food, world class wines, ultimate awesomeness day and night.</p>
+      
+      <div class="event-data">
+      <p>This is Drupalaton.</p>
+
+        <p>
+          <strong>Date:</strong> 15-18 August 2013.</br>
+          <strong>Place:</strong> Lake Balaton, Keszthely, Hungary</br>
+          <strong>Venue:</strong> <a href="#location">Hotel Helikon</a>
+        </p>       
+      </div>
     </div>
   </div>
 </div>
