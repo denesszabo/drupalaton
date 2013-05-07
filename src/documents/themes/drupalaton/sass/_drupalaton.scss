@@ -181,8 +181,7 @@ p {
 #content {
 
   section {
-    padding-top: 4.5em;
-    margin-top: -3.5em;
+    padding-top: 2.5em;
   }
 
   h2.section-title{
@@ -212,10 +211,8 @@ p {
 }
 
 .tabs {
-  padding-top: 4.5em;
-  margin-bottom: 40px;
-  height: 54px;
-
+  padding-top: 1em;
+  height: 46px;
 
   h2 {
     position: relative;
@@ -227,11 +224,8 @@ p {
 
     a {
       @include tab-button;
-    } // tab a
-
-
+    }
     &.middle {
-      //margin: 0 20px;
     }
 
     &.last {
@@ -241,10 +235,20 @@ p {
 }
 
 .tab-content {
+  background-color: $menuitemcolor;
+  padding: 40px 0 50px;
+  
+  p {
+    color: #fff;
+    
+    a {
+      color: $sectiontitle;
+    }
+  }
 }
 
 .tab-button {
-  @include tab-button;
+  @include submit-button;
 }
 
 div.twitter {
@@ -341,6 +345,9 @@ div.newsletter {
 }
 .location {
   margin-bottom: 20px;
+}
+.about-wrapper {
+  margin-top: 60px;
 }
 
 /**

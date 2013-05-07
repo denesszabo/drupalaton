@@ -21,23 +21,20 @@ $(document).ready(function () {
   if($window.scrollTop() > $nav_height)
   {
     $('.navigation').addClass('fixed');
-    //$('#scroll-wrap').css('padding-top', $nav_height + 'px');
   }
   $window.scroll(function () {
     // lock the menu itself
     $nav_height = $('.navigation').height();
     if ($window.scrollTop() > $nav_height) {
       $('.navigation').addClass('fixed');
-      //$('#scroll-wrap').css('padding-top', $nav_height + 'px');
     }
     else {
       $('.navigation').removeClass('fixed');
-      //$('#scroll-wrap').css('padding-top', 0);
     }
   });
 
 
-
+  // Tabs content for About and Sponsors region
   function changeTab($this) {
     $('.tab-content').each(function () {
       $(this).addClass('invisible');
