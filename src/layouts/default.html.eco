@@ -34,18 +34,9 @@
 
     <%-@partial('nav.html.eco', @)%>
     <%-@partial('header.html.eco', @)%>
-        
-    <div class="about-wrapper">
-      <%-@partial('about.html.eco', @)%>
-    </div>
 
     <!-- CONTENT -->
-    <div class="content container_12" id="content">
-      
-      <div class="wrapper">
         <%- @content %>
-      </div>
-    </div>
     <!-- / CONTENT -->
   </div>
   

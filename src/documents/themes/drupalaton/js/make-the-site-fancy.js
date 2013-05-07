@@ -48,7 +48,7 @@ $(document).ready(function () {
   }
 
   var hash = location.hash;
-  if ('#about-keszthely' == hash || '#about-balaton' == hash || '#history-drupalaton' == hash ) {
+  if ('#about-keszthely' == hash || '#about-balaton' == hash || '#history-drupalaton' == hash || '#sponsors-silver-tab' == hash || '#sponsors-gold-tab' == hash || '#sponsors-diamond-tab' == hash) {
     changeTab(hash);
   }
   

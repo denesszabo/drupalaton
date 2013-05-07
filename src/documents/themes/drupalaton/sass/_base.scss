@@ -194,3 +194,19 @@ $tabs-border: #bbb;
     background-color:$menuitemcolor;
   }
 }
+
+@mixin orange-button {
+  position: relative;
+  color: #fff;
+  background-color: $orange;
+  font-family: $oswald;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+
+  font-size:$base-font-size + 8;
+  padding:14px 30px 10px 30px;
+  @include text-shadow(0 -2px #000000);
+  @include border-radius(6px);
+  @include box-shadow($darkorange 0px -6px);
+}
