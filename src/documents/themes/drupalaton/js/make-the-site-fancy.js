@@ -35,26 +35,34 @@ $(document).ready(function () {
 
 
   // Tabs content for About and Sponsors region
-  function changeTab($this) {
+  function changeTab(target) {
     $('.tab-content').each(function () {
       $(this).addClass('invisible');
     });
 
-    var $current = $this + '-tab';
-    $($current).removeClass('invisible').slideDown({
+    var current = target + '-tab';
+    $(current).removeClass('invisible').slideDown({
       duration: 'fast',
       easing: 'linear'
     });
   }
 
-  var $hash = location.hash;
-  if ('#about-keszthely' == $hash || '#about-balaton' == $hash || '#history-drupalaton' == $hash ) {
-    changeTab($hash);
+  var hash = location.hash;
+  if ('#about-keszthely' == hash || '#about-balaton' == hash || '#history-drupalaton' == hash ) {
+    changeTab(hash);
   }
   
-  $('.tabs a').click(function() {
+  $('.tabs a').click(function(e) {
     $(".tabs a").removeClass("tab-open");
     changeTab(this.hash);
     $(this).addClass("tab-open");
+    location.hash = target;
+    e.preventDefault();
+    return false;
+  });
+
+  $(window).on('hashchange', function (e) {
+    e.preventDefault();
+    return false;
   });
 });
