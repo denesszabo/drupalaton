@@ -21,41 +21,44 @@ $(document).ready(function () {
   if($window.scrollTop() > $nav_height)
   {
     $('.navigation').addClass('fixed');
-    //$('#scroll-wrap').css('padding-top', $nav_height + 'px');
   }
   $window.scroll(function () {
     // lock the menu itself
     $nav_height = $('.navigation').height();
     if ($window.scrollTop() > $nav_height) {
       $('.navigation').addClass('fixed');
-      //$('#scroll-wrap').css('padding-top', $nav_height + 'px');
     }
     else {
       $('.navigation').removeClass('fixed');
-      //$('#scroll-wrap').css('padding-top', 0);
     }
   });
 
 
-
-  function changeTab($this) {
-    $('.tab-content').each(function () {
+  // Tabs content for About and Sponsors region
+  function changeTab(target) {
+    var link = $('[href=' + target + ']');
+    var section = link.parents('section');
+    var tabs = section.find('.tabs');
+    
+    tabs.find('a').removeClass("tab-open");
+    section.find('.tab-content').each(function () {
       $(this).addClass('invisible');
     });
 
-    var $current = $this + '-tab';
-    $($current).removeClass('invisible').slideDown({
+    var current = target + '-tab';
+    $(current).removeClass('invisible').slideDown({
       duration: 'fast',
       easing: 'linear'
     });
+    link.addClass("tab-open");
   }
 
-  var $hash = location.hash;
-  if ('#about-keszthely' == $hash || '#about-balaton' == $hash || '#history-drupalaton' == $hash ) {
-    changeTab($hash);
+  var hash = location.hash;
+  if ('#about-keszthely' == hash || '#about-balaton' == hash || '#history-drupalaton' == hash || '#sponsors-silver-tab' == hash || '#sponsors-gold-tab' == hash || '#sponsors-diamond-tab' == hash) {
+    changeTab(hash);
   }
-
-  $('.tabs a').click(function() {
+  
+  $('.tabs a').click(function(e) {
     changeTab(this.hash);
   });
 });

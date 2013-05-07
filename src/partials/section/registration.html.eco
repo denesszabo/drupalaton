@@ -1,0 +1,6 @@
+<div class="content container_12">      
+  <div class="wrapper">
+    <h2 class="section-title"><%= @labels['registration'] %></h2>
+    <p>Registrations will be open soon. To get the latest updates about registration and ticket info, <a href="#newsletter">subscribe to our newsletter</a> and <a href="#twitter">follow us on twitter.</a></p>
+  </div>
+</div>

@@ -1,14 +1,18 @@
-<h2 class="section-title"><%= @labels['location'] %></h2>
-
-<p>
-<%= @conf.venue %>, <%= @conf.address %>. <br />
-<%= @conf.postcode %> <%= @conf.city %>,<br />
-<%= @conf.state %>
-</p>
-<p class="invisible" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-  <span itemprop="streetAddress"><%= @conf.address %>. </span>
-  <span itemprop="addressLocality"><%= @conf.city %></span>,
-  <span itemprop="addressRegion"><%= @conf.state %></span>
-</p>
-
-<div id="map-canvas" class="location-area" data-address="<%= @conf.coordinates %>"></div>
+<div class="content container_12">      
+  <div class="wrapper">
+    <h2 class="section-title"><%= @labels['location'] %></h2>
+    
+    <p>
+    <%= @conf.venue %>, <%= @conf.address %>. <br />
+    <%= @conf.postcode %> <%= @conf.city %>,<br />
+    <%= @conf.state %>
+    </p>
+    <p class="invisible" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+      <span itemprop="streetAddress"><%= @conf.address %>. </span>
+      <span itemprop="addressLocality"><%= @conf.city %></span>,
+      <span itemprop="addressRegion"><%= @conf.state %></span>
+    </p>
+    
+    <div id="map-canvas" class="location-area" data-address="<%= @conf.coordinates %>"></div>
+  </div>
+</div>

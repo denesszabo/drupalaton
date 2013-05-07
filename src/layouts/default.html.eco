@@ -36,14 +36,14 @@
     <%-@partial('header.html.eco', @)%>
 
     <!-- CONTENT -->
-    <div class="content container_12" id="content">
-      <div class="wrapper">
         <%- @content %>
-      </div>
-    </div>
     <!-- / CONTENT -->
+  </div>
+  
+  </div>
+  
 
-  <div class="newsletter">
+  <div class="newsletter" id="newsletter">
     <div class="container_12">
       <!-- Begin MailChimp Signup Form -->
       <div id="mc_embed_signup">
@@ -72,7 +72,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="<%= @getTheme() %>/js/jquery-1.8"><\/script>')</script>
   <script src="<%= @getTheme() %>/js/main.js"></script>
-  <script src="<%= @getTheme() %>/js/jquery.scrollorama.js"></script>
+  <script src="<%= @getTheme() %>/js/scrollorama.js"></script>
   <script src="<%= @getTheme() %>/js/make-the-site-fancy.js"></script>
 
   <% if @conf.address != '': %>
