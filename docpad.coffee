@@ -30,6 +30,7 @@ module.exports =
     sections: [
       'about'
       'location'
+      'registration'
       'sessionproposals'
       #'speakers'
       #'schedule'
@@ -44,6 +45,7 @@ module.exports =
     labels:
       about: "About"
       location: "Location"
+      registration: "Registration"
       speakers: "Speakers"
       schedule: "Schedule"
       sponsors: "Sponsors"
