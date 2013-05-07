@@ -1,9 +1,11 @@
 <h2 class="section-title"><%= @labels['sponsors'] %></h2>
 
+
 <h2>Sponsorship</h2>
 <p>Drupalaton is perhaps the biggest event in the region outside of Drupalcon. It introduces new people to Drupal and connects with established drupalists and drupal shops.</p>
 <p>Sponsor us to help our team of volunteers to promote Drupal in the region. The sponsorship will be used to secure the venue and provide all the services the camp needs to run smoothly.</p>
 <p>Sponsoring this event will give you and your organisation exposure in this vibrant community and will help you find talented drupalists to rock the world with.</p>
+
 
 <h3>Diamond - 1500€ (2 available)</h3>
 <ul>
@@ -43,9 +45,21 @@
 <li>Link to your company’s website in the "thank you to our sponsors" letter sent to all attendees</li>
 </ul>
 
-<h3>Community - double ticket price (unlimited)</h3>
-<ul>
-<li>One attendee slot</li>
-<li>A surprise gift (a drupalaton mug, perhaps a bottle of wine… a surprise!)</li>
-<li>The proud knowledge of you helping the event and a thanks from the organisers</li>
-</ul>
+<!--
+<% if @sponsors: %>
+  <ul class="sponsors-list">
+  <% for sponsor in @sponsors: %>
+    <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+      <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">
+        <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
+      </a>
+    </li>
+  <% end %>
+    <li class="sponsor-item">
+      <a class="sponsor-logo sponsor-link sponsor-call" href="#">
+        <img src="<%= @getTheme() %>/img/your-logo.jpg" alt="your logo" class="photo">
+      </a>
+    </li>
+  </ul>
+<% end %>
+-->
