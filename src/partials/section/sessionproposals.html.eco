@@ -1,9 +1,11 @@
-<h2 class="section-title"><%= @labels['sessionproposals'] %></h2>
-
-
-
-<p>Come, join us at Drupalaton and give a talk or a session together with great drupalists from organisations small and big in front of a curious group of international technologists, designers, students of Drupal.</p>
-
-<p>The language of the sessions is English only.</p>
-
-<p><a href="https://docs.google.com/forms/d/1CwdI7YQk5AK0AWldlqZ5qdSUIQBgXGxN1QUIQcq3XpE/viewform" class="tab-button">Submit a session</a></p>
+<div class="content container_12">      
+  <div class="wrapper">
+    <h2 class="section-title"><%= @labels['sessionproposals'] %></h2>
+    
+    <p>Come, join us at Drupalaton and give a talk or a session together with great drupalists from organisations small and big in front of a curious group of international technologists, designers, students of Drupal.</p>
+    
+    <p>The language of the sessions is English only.</p>
+    
+    <p><a href="https://docs.google.com/forms/d/1CwdI7YQk5AK0AWldlqZ5qdSUIQBgXGxN1QUIQcq3XpE/viewform" class="tab-button">Submit a session</a></p>
+  </div>
+</div>
