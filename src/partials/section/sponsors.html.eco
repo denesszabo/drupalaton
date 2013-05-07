@@ -24,7 +24,6 @@
 <div class="tab-content" id="sponsors-diamond-tab">
   <div class="content container_12">      
     <div class="wrapper">
-      <h3>Diamond - 1500€ (2 available)</h3>
       <ul>
         <li>Large logo on the sponsor page of the Drupalaton 2013 web site</li>
         <li>Sponsor logo on the sidebar of the Drupalaton 2013 web site
@@ -40,14 +39,13 @@
         <li>Sending an advertisement newsletter for the participants of the event (1 letter)</li>
         <li>Booth table (you have to bring the branding materials)</li>
       </ul>
-      <a href="#" class="tab-button">I want it</a>
+      <a href="mailto:info@drupalaton.hu?subject=I would like to buy Diamond package"  class="tab-button">I want it</a>
     </div>
   </div>
 </div>
 <div class="tab-content invisible" id="sponsors-gold-tab">
   <div class="content container_12">      
     <div class="wrapper">
-      <h3>Gold - 750€ (6 available)</h3>
       <ul>
         <li>Middle size logo on the sponsor page of the web site</li>
         <li>Middle size sponsor logo on the screensavers in the breaks between sessions</li>
@@ -59,7 +57,7 @@
         <li>1 paragraph in the "thank you to our sponsors" letter sent to all attendees</li>
         <li>Booth table (you have to bring the branding materials)</li>
       </ul>
-      <a href="#" class="tab-button">I want it</a>
+      <a href="mailto:info@drupalaton.hu?subject=I would like to buy Gold package"  class="tab-button">I want it</a>
     </div>
   </div>
 </div>
@@ -67,14 +65,13 @@
 <div class="tab-content invisible" id="sponsors-silver-tab">
   <div class="content container_12">      
     <div class="wrapper">
-      <h3>Silver - 500€ (unlimited)</h3>
       <ul>
         <li>Small logo on the sponsor page of the web site</li>
         <li>Small sponsor logo on the screensavers in the breaks between sessions</li>
         <li>Option to place advertising materials in attendee swag bag</li>
         <li>Link to your company’s website in the "thank you to our sponsors" letter sent to all attendees</li>
       </ul>
-      <a href="#" class="tab-button">I want it</a>
+      <a href="mailto:info@drupalaton.hu?subject=I would like to buy Silver package" class="tab-button">I want it</a>
     </div>
   </div>
 </div>
