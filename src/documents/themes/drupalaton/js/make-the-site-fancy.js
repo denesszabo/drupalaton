@@ -18,15 +18,18 @@ $(document).ready(function () {
 
   $window = $(window);
   var $nav_height = $('.navigation').height();
-  if($window.scrollTop() > $nav_height)
-  {
+  if($window.scrollTop() > $nav_height) {
     $('.navigation').addClass('fixed');
+    $nav_height += 20;
+    $('section').css('padding-top', $nav_height + 'px');
   }
   $window.scroll(function () {
     // lock the menu itself
     $nav_height = $('.navigation').height();
     if ($window.scrollTop() > $nav_height) {
       $('.navigation').addClass('fixed');
+      $nav_height += 20;
+      $('section').css('padding-top', $nav_height + 'px');
     }
     else {
       $('.navigation').removeClass('fixed');
@@ -39,7 +42,7 @@ $(document).ready(function () {
     var link = $('[href=' + target + ']');
     var section = link.parents('section');
     var tabs = section.find('.tabs');
-    
+
     tabs.find('a').removeClass("tab-open");
     section.find('.tab-content').each(function () {
       $(this).addClass('invisible');
@@ -57,7 +60,7 @@ $(document).ready(function () {
   if ('#about-keszthely' == hash || '#about-balaton' == hash || '#history-drupalaton' == hash || '#sponsors-silver-tab' == hash || '#sponsors-gold-tab' == hash || '#sponsors-diamond-tab' == hash) {
     changeTab(hash);
   }
-  
+
   $('.tabs a').click(function(e) {
     changeTab(this.hash);
   });
