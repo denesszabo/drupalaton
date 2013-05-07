@@ -1,6 +1,8 @@
 <div class="content container_12">      
   <div class="wrapper">
-    <h2 class="section-title"><%= @labels['contactmin'] %></h2>
-    <p>If you have any questions feel free to <a href="mailto:info@drupalaton.hu" title="Write to us!"> write to us</a>!
+    <p>If you have any questions</br> 
+       feel free to <a href="mailto:info@drupalaton.hu" title="Write to us!"> write to us</a>!</br> 
+       <span><a href="mailto:info@drupalaton.hu">info@drupalaton.hu</a></span>
+    </p>
   </div>
 </div>

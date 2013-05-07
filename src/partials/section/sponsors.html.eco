@@ -1,6 +1,6 @@
 <div class="content container_12">      
   <div class="wrapper">
-    <div class="about-wrapper">
+    <div class="sponsor-wrapper">
         
       <h2 class="section-title"><%= @labels['sponsors'] %></h2>
          
@@ -41,6 +41,7 @@
       <li>Sending an advertisement newsletter for the participants of the event (1 letter)</li>
       <li>Booth table (you have to bring the branding materials)</li>
       </ul>
+      <a href="#" class="tab-button">I want it</a>
     </div>
   </div>
 </div>
@@ -58,7 +59,8 @@
       <li>A place for the poster of your company</li>
       <li>1 paragraph in the "thank you to our sponsors" letter sent to all attendees</li>
       <li>Booth table (you have to bring the branding materials)</li>
-      </ul> 
+      </ul>
+      <a href="#" class="tab-button">I want it</a>
     </div>
   </div>
 </div>
@@ -73,6 +75,7 @@
       <li>Option to place advertising materials in attendee swag bag</li>
       <li>Link to your company’s website in the "thank you to our sponsors" letter sent to all attendees</li>
       </ul>
+      <a href="#" class="tab-button">I want it</a>
     </div>
   </div>
 </div>
