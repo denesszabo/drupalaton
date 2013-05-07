@@ -246,6 +246,14 @@ p {
 .tab-button {
   @include submit-button;
 }
+// about
+.about {
+  .event-data {
+    background: url("../img/drupalaton_hungary.jpg") no-repeat scroll top right transparent;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+}
 .sponsors {
   .tab-button {
     @include orange-button;
