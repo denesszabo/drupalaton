@@ -1,7 +1,6 @@
 <div class="content container_12">      
   <div class="wrapper">
     <div class="about-wrapper">
-        
       <h2 class="section-title"><%= @labels['about'] %></h2>  
       <p>Remember when we turned Szeged into the Drupaltown in 2008? Now we bring it to the next level. The Hungarian Drupal community is pleased to announce Drupalaton, the longest drupalcamp on the planet. An event taking place at the breathtaking shore of the biggest warm-water lake in Europe, at lake Balaton in Hungary. Four days in perfect balance of work and leisure, sessions, sprints, beach sports, great food, world class wines, ultimate awesomeness day and night.</p>
       
@@ -14,26 +13,26 @@
           <strong>Venue:</strong> <a href="#location">Hotel Helikon</a>
         </p>       
       </div>
-        
-      <div class="tabs">
-        <h2 class="first"><a href="#about-keszthely" class="tab-open">About Keszthely</a></h2>
-        <h2 class="middle"><a href="#about-balaton">About Balaton</a></h2>
-        <h2 class="last"><a href="#history-drupalaton">History of Drupalaton</a></h2>
-      </div>
     </div>
+  </div>
+</div>
+<div class="content container_12">      
+  <div class="wrapper">
+    <div class="tabs">
+      <h2 class="first"><a href="#about-keszthely" class="tab-open">About Keszthely</a></h2>
+      <h2 class="middle"><a href="#about-balaton">About Balaton</a></h2>
+      <h2 class="last"><a href="#history-drupalaton">History of Drupalaton</a></h2>
+    </div>  
   </div>
 </div>
 <div class="tab-content" id="about-keszthely-tab">
   <div class="content container_12">      
     <div class="wrapper">
       <p>The city of Keszthely is located in the northern west end of <a href="http://en.wikipedia.org/wiki/Lake_Balaton">Lake Balaton</a>, on the shore of one of the biggest lakes in <a href="http://en.wikipedia.org/wiki/Central_Europe">Central Europe</a>. The city is surrounded by forests and rolling hills to the north, plains to the south-west and the lake to the south-east. South of the city lies Kis-Balaton (Little Balaton), a swamp which is a part of the <a href="http://en.wikipedia.org/wiki/Zala_river">Zala river</a> delta of and which acts as a natural water purifier for Lake Balaton. The swamp is particularly known as a water fowl habitat and enjoys international recognition and protection as a natural reserve.</p>
-      
       <p>The city is also close to <a href="http://en.wikipedia.org/wiki/Hévíz">Hévíz</a>, a town famous for its spa and health services. Keszthely is also very close to some northern Balaton wine regions which are known to produce high quality white wines from locally cultivated varieties.</p>
-      </div>
     </div>
   </div>
 </div>
-
 <div class="tab-content invisible" id="about-balaton-tab">
   <div class="content container_12">      
     <div class="wrapper">
@@ -41,8 +40,6 @@
     </div>
   </div>
 </div>
-  
-
 <div class="tab-content invisible" id="history-drupalaton-tab">
   <div class="content container_12">      
     <div class="wrapper">

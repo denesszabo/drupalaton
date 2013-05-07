@@ -36,7 +36,12 @@ $(document).ready(function () {
 
   // Tabs content for About and Sponsors region
   function changeTab(target) {
-    $('.tab-content').each(function () {
+    var link = $('[href=' + target + ']');
+    var section = link.parents('section');
+    var tabs = section.find('.tabs');
+    
+    tabs.find('a').removeClass("tab-open");
+    section.find('.tab-content').each(function () {
       $(this).addClass('invisible');
     });
 
@@ -45,6 +50,7 @@ $(document).ready(function () {
       duration: 'fast',
       easing: 'linear'
     });
+    link.addClass("tab-open");
   }
 
   var hash = location.hash;
@@ -53,8 +59,6 @@ $(document).ready(function () {
   }
   
   $('.tabs a').click(function(e) {
-    $(".tabs a").removeClass("tab-open");
     changeTab(this.hash);
-    $(this).addClass("tab-open");
   });
 });
