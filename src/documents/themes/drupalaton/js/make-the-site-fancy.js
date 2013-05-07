@@ -56,13 +56,5 @@ $(document).ready(function () {
     $(".tabs a").removeClass("tab-open");
     changeTab(this.hash);
     $(this).addClass("tab-open");
-    location.hash = target;
-    e.preventDefault();
-    return false;
-  });
-
-  $(window).on('hashchange', function (e) {
-    e.preventDefault();
-    return false;
   });
 });
