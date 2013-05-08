@@ -7,6 +7,26 @@ $(document).ready(function () {
   if (width >= 980) {
     scrollorama.animate('#bigboat', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  });
     scrollorama.animate('#smallboat', { delay: -550, duration: 700, property: 'left', start: -10, end: 600  });
+  
+    $window = $(window);
+    var $nav_height = $('.navigation').height();
+    if($window.scrollTop() > $nav_height) {
+      $('.navigation').addClass('fixed');
+      $nav_height += 20;
+      $('section').css('padding-top', $nav_height + 'px');
+    }
+    $window.scroll(function () {
+      // lock the menu itself
+      $nav_height = $('.navigation').height();
+      if ($window.scrollTop() > $nav_height) {
+        $('.navigation').addClass('fixed');
+        $nav_height += 20;
+        $('section').css('padding-top', $nav_height + 'px');
+      }
+      else {
+        $('.navigation').removeClass('fixed');
+      }
+    });
   }
   else if (width < 979 && width >= 600) {
     scrollorama.animate('#bigboat', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  });
@@ -15,26 +35,6 @@ $(document).ready(function () {
   else if (width < 600) {
     // no move
   }
-
-  $window = $(window);
-  var $nav_height = $('.navigation').height();
-  if($window.scrollTop() > $nav_height) {
-    $('.navigation').addClass('fixed');
-    $nav_height += 20;
-    $('section').css('padding-top', $nav_height + 'px');
-  }
-  $window.scroll(function () {
-    // lock the menu itself
-    $nav_height = $('.navigation').height();
-    if ($window.scrollTop() > $nav_height) {
-      $('.navigation').addClass('fixed');
-      $nav_height += 20;
-      $('section').css('padding-top', $nav_height + 'px');
-    }
-    else {
-      $('.navigation').removeClass('fixed');
-    }
-  });
 
 
   // Tabs content for About and Sponsors region

@@ -30,10 +30,10 @@ p {
  * navigation
  */
 .navigation {
-  //height: 52px;
   position: fixed;
   z-index: 10;
   width: 100%;
+  transition: all 0.3s ease-in;
 
   &.fixed {
     background-color: rgba(0, 0, 0, 0.6);
@@ -53,7 +53,6 @@ p {
     padding: 0 20px;
 
     li {
-      //float: left;
       display: inline;
       margin: 0 15px;
       line-height: normal;
@@ -134,7 +133,7 @@ p {
 }
 .info {
   height: 400px;
-  margin-top: 15px;
+  margin-top: 30px;
   position: absolute;
   top: 288px;
   width: 100%;
@@ -436,6 +435,10 @@ div.newsletter {
   }
   #nav ul {
     padding-left: 20px;
+    
+    li a {
+      color: #fff;
+    }
   }
   .landscape {
     height: 492px;
@@ -533,15 +536,34 @@ div.newsletter {
       margin: 20px 0 0 0;
     }
   }
-  #nav ul li {
-    float: none;
-  }
   .navigation {
     height: auto;
-    //width: 50%;
   }
   .content h2.section-title {
     font-size: $base-font-size * 3;
+  }
+  .about .event-data {
+    padding-bottom: 180px;
+    background-size: 100% auto;
+    background-position: 0 bottom;
+  }
+  .contactmin {
+    p {
+      font-size: $base-font-size * 2 + 2;
+    }
+  }
+  .sponsors {
+    .tab-button {
+      width: 77%;
+    }
+  }
+  .boats {
+    #smallboat {
+      right: 144px;
+    }
+    #bigboat {
+      right: 28px;
+    }
   }
 }
 @media all and (max-width: 1300px) {
