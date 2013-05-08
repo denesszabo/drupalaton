@@ -1,0 +1,9 @@
+<div class="social" id="social">
+  <div class="container_12">
+    <div>
+      Share <span>drupalaton</span> on 
+      <a href="https://twitter.com/intent/tweet?url=http%3A//www.drupalaton.hu&text=Drupal conf @ Lake Balaton Hungary">Twitter <span></span></a> or on 
+      <a href="http://www.facebook.com/sharer.php?u=http://www.drupalaton.hu&p[images][0]=http://drupalaton.hu/themes/drupalaton/img/drup_facebook.png">Facebook <span></span></a>      
+    </div>
+  </div>
+</div>

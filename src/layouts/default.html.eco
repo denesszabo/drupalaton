@@ -61,11 +61,17 @@
     </div>
   </div>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-      <%-@partial('footer.html.eco', @)%>
-    </footer>
-    <!-- / FOOTER -->
+  <!-- FOOTER -->
+  <footer class="footer">
+    <%-@partial('footer.html.eco', @)%>
+  </footer>
+  <!-- / FOOTER -->
+
+  <!-- Social -->
+  
+  <%-@partial('social.html.eco', @)%>
+  
+  <!-- / Social -->
 
   </div>
 
