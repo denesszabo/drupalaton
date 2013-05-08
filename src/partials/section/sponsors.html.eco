@@ -15,15 +15,16 @@
 <div class="content container_12">      
   <div class="wrapper">
     <div class="tabs">
-      <h2 class="first"><a href="#sponsors-diamond" class="tab-open">Diamond - 1500€ (2 available)</a></h2>
-      <h2 class="middle"><a href="#sponsors-gold">Gold - 750€ (6 available)</a></h2>
-      <h2 class="last"><a href="#sponsors-silver">Silver - 500€ (unlimited)</a></h2>
+      <h2 class="first"><a href="#sponsors-diamond" class="tab-open">Diamond<span> - 1500€ (2 available)</span></a></h2>
+      <h2 class="middle"><a href="#sponsors-gold">Gold<span> - 750€ (6 available)</span></a></h2>
+      <h2 class="last"><a href="#sponsors-silver">Silver<span> - 500€ (unlimited)</span></a></h2>
     </div>  
   </div>
 </div>
 <div class="tab-content" id="sponsors-diamond-tab">
   <div class="content container_12">      
     <div class="wrapper">
+      <p class="price"><strong>Price:</strong> 1500€ (2 available)</p>
       <ul>
         <li>Large logo on the sponsor page of the Drupalaton 2013 web site</li>
         <li>Sponsor logo on the sidebar of the Drupalaton 2013 web site
@@ -46,6 +47,7 @@
 <div class="tab-content invisible" id="sponsors-gold-tab">
   <div class="content container_12">      
     <div class="wrapper">
+      <p class="price"><strong>Price:</strong> 750€ (6 available)</p>
       <ul>
         <li>Middle size logo on the sponsor page of the web site</li>
         <li>Middle size sponsor logo on the screensavers in the breaks between sessions</li>
@@ -65,6 +67,7 @@
 <div class="tab-content invisible" id="sponsors-silver-tab">
   <div class="content container_12">      
     <div class="wrapper">
+      <p class="price"><strong>Price:</strong> 500€ (unlimited)</p>
       <ul>
         <li>Small logo on the sponsor page of the web site</li>
         <li>Small sponsor logo on the screensavers in the breaks between sessions</li>

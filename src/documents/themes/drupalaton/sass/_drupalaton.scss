@@ -227,6 +227,10 @@ p {
     }
   }
 }
+p.price {
+  display: none;
+}
+
 section {
     margin-top: -4.5em;
     padding-top: 4.5em;
@@ -362,6 +366,27 @@ div.newsletter {
 
   }
 }
+
+// social
+div.social {
+  background-color: $orange;
+  padding: 60px 0;
+
+  display: block;
+  font-family: $oswald;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 100%;
+  
+  p {
+    font-size: $base-font-size * 4 + 11;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
 .partner-link {
   background: #fff;
   border: 1px solid #ccc;
@@ -394,11 +419,6 @@ div.newsletter {
   margin-top: 60px;
 }
 
-// social
-.social {
-  background-color: $orange;
-  padding: 60px 0;
-}
 /**
  * device fixes
  */
@@ -492,7 +512,7 @@ div.newsletter {
 
       a {
         right: 17px;
-        top: 4px;
+        top: 193px;
       }
     }
   }
@@ -580,6 +600,22 @@ div.newsletter {
    .boat {
      display: none;
    }
+  }
+  .tab-content {
+    p.price {
+      display: block;
+    }
+  }
+  div.social {
+    img {
+      height: 28px;
+    }
+    p {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: $base-font-size *2+4;
+      line-height: 120%;
+    }
   }
 }
 @media all and (max-width: 1300px) {
