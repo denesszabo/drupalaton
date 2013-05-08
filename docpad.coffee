@@ -8,7 +8,7 @@ module.exports =
     # Conference info
     conf:
       name: "Drupalaton"
-      description: "Drupal conf @ Lake Balaton Hungary"
+      description: "Drupal conf @ Lake Balaton Hungary - August 15-18, 2013"
       date: "August 15-18, 2013"
       price: ""
       venue: "Hotel Helikon"
