@@ -464,6 +464,7 @@ div.newsletter {
     }
     .info {
       height: 262px;
+      margin-top: 0;
 
       h1 {
         width: 100%;
@@ -558,12 +559,9 @@ div.newsletter {
     }
   }
   .boats {
-    #smallboat {
-      right: 144px;
-    }
-    #bigboat {
-      right: 28px;
-    }
+   .boat {
+     display: none;
+   }
   }
 }
 @media all and (max-width: 1300px) {
