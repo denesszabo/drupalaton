@@ -19,9 +19,9 @@
 <div class="content container_12">      
   <div class="wrapper">
     <div class="tabs">
-      <h2 class="first"><a href="#about-keszthely" class="tab-open">About Keszthely</a></h2>
-      <h2 class="middle"><a href="#about-balaton">About Balaton</a></h2>
-      <h2 class="last"><a href="#history-drupalaton">History of Drupalaton</a></h2>
+      <h2 class="first"><a href="#about-keszthely" class="tab-open"><span>About</span> Keszthely</a></h2>
+      <h2 class="middle"><a href="#about-balaton"><span>About</span> Balaton</a></h2>
+      <h2 class="last"><a href="#history-drupalaton"><span>History of</span> Drupalaton</a></h2>
     </div>  
   </div>
 </div>
