@@ -2,12 +2,8 @@ $(document).ready(function () {
 
   var scrollorama = $.scrollorama({ blocks: '.boats' });
   var width = $(document).width();
-  $('.boats').css('width', width);
-
-  if (width >= 980) {
-    scrollorama.animate('#bigboat', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  });
-    scrollorama.animate('#smallboat', { delay: -550, duration: 700, property: 'left', start: -10, end: 600  });
   
+  function addclasstonav() {
     $window = $(window);
     var $nav_height = $('.navigation').height();
     if($window.scrollTop() > $nav_height) {
@@ -28,9 +24,23 @@ $(document).ready(function () {
       }
     });
   }
+  
+  $('.boats').css('width', width);
+
+  if (width >= 980) {
+    addclasstonav();
+    
+    scrollorama
+    .animate('#bigboat', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
+    .animate('#smallboat', { delay: -550, duration: 700, property: 'left', start: -10, end: 600  });
+  }
   else if (width < 979 && width >= 600) {
-    scrollorama.animate('#bigboat', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  });
-    scrollorama.animate('#smallboat', { delay: -550, duration: 700, property: 'left', start: -10, end: 600  });
+    addclasstonav();
+    
+    scrollorama
+    .animate('#bigboat', { delay: -300, duration: 800, property: 'left', start: -10, end: 600  })
+    .animate('#smallboat', { delay: -350, duration: 700, property: 'left', start: -10, end: 600  });
+
   }
   else if (width < 600) {
     // no move

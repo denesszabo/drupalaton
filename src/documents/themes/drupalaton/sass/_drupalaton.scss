@@ -442,7 +442,87 @@ div.social {
 }
 // tablet and small screen
 @media all and (min-width: 600px) and (max-width: 999px) {
-
+  #nav ul li {
+    margin: 0 5px;
+    
+    a {
+      font-size: $base-font-size;
+    }
+  }
+  .container_12 {
+    width: 100%;
+    
+    .wrapper {
+      padding: 0 40px;
+    }
+  }
+  body {
+    min-width: 600px;
+    max-width: 999px;
+  }
+  .hills {
+    width: 600px;
+  }
+  .logo-link .logo-link-inner {
+    width: 100%;
+    
+    a {
+      right: 90%;
+    }
+  }
+  .logo {
+    .logo-inner {
+      width: 100%;
+      padding: 0;
+      
+      img {
+        right: 10%;
+        position: relative;
+      }
+    }
+  }
+  .lake,
+  .landscape {
+    height:644px;
+  }
+  .info {
+    height: 285px;
+    
+    h1 {
+      width: 600px;
+      
+      span {
+        background-size: 100% auto;
+      }
+    }
+  }
+  .about .event-data {
+    background-size: 40% auto;
+  }
+  .sponsors .tab-button {
+    width: 90%;
+  }
+  .newsletter .container_12,
+  .twitter .container_12,
+  .social .container_12 {
+    padding: 0 40px;
+    max-width: 86%;
+  }
+  .contactmin p,
+  div.newsletter span,
+  div.twitter span,
+  div.social p {
+    font-size: $base-font-size * 4;
+  }
+  div.newsletter input.email {
+    width: 59%;
+  }
+  .tabs h2 a span {
+    display: none;
+  }
+  p.price {
+    display: block;
+  }
 }
 // landscape ipad tablet
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
@@ -625,7 +705,30 @@ div.social {
 }
 // iPhone 4, 4S Retina landscape
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-
+  p {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .landscape {
+    height: 440px;
+    
+    .lake {
+      height: 440px;
+    }
+  }
+  .about-wrapper, .location, .sessionproposals {
+    margin-top: 40px;
+  }
+  .navigation #nav-toggle {
+    height: 30px;
+    background-size: 70% auto;
+    background-position: 60% center;
+  }
+  #nav {
+    ul li a {
+      font-size: 12px;
+    }
+  }
 }
 
 // Standing retina screen
