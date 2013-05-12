@@ -17,11 +17,11 @@ firesass = true
 
 
 # Location of the theme's resources.
-css_dir         = "css"
-sass_dir        = "sass"
-extensions_dir  = "sass-extensions"
-images_dir      = "images"
-javascripts_dir = "js"
+css_dir         = "src/documents/themes/drupalaton/css"
+sass_dir        = "src/documents/themes/drupalaton/sass"
+extensions_dir  = "src/documents/themes/drupalaton/sass-extensions"
+images_dir      = "src/documents/themes/drupalaton/images"
+javascripts_dir = "src/documents/themes/drupalaton/js"
 
 
 # Require any additional compass plugins installed on your system.
