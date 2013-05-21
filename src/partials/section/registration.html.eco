@@ -2,5 +2,9 @@
   <div class="wrapper">
     <h2 class="section-title"><%= @labels['registration'] %></h2>
     <p>Registrations will be open soon. To get the latest updates about registration and ticket info, <a href="#newsletter">subscribe to our newsletter</a> and <a href="#twitter">follow us on twitter.</a></p>
+    <h2>Ticket Information</h2>
+    <p>The ticket for the event costs 30 EUR which includes the welcome package and the usual beverages (coffee, soft drinks) and snacks during the four days.</p>
+
+    <p>Please consider becoming an individual sponsor, which will get you a surprise gift and allows us to help more students to attend as well. Not to mention the bonus karma.</p>
   </div>
 </div>
