@@ -14,7 +14,7 @@ module.exports =
       venue: "Hotel Helikon"
       postcode: "8360"
       address: "Balatonpart 5"
-      coordinates: "46.761217,17.257006"
+      coordinates: "46.761796291,17.253770828"
       city: "Keszthely"
       state: "Hungary"
 
