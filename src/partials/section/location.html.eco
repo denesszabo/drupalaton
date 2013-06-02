@@ -5,7 +5,8 @@
     <p>
     <%= @conf.venue %>, <%= @conf.address %>. <br />
     <%= @conf.postcode %> <%= @conf.city %>,<br />
-    <%= @conf.state %>
+    <%= @conf.state %>,<br />
+    GPS: <%= @conf.coordinates %>
     </p>
     <p class="invisible" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
       <span itemprop="streetAddress"><%= @conf.address %>. </span>
@@ -14,5 +15,43 @@
     </p>
     
     <div id="map-canvas" class="location-area" data-address="<%= @conf.coordinates %>"></div>
+    
+    <p><a name="location-venue"></a><strong>Venue:</strong><br />
+      
+      Hotel Helikon, Balatonpart 5. <br />
+      
+      8360 Keszthely,<br />
+      
+      Hungary<br />
+      
+      GPS: N 46.761796291, E 17.253770828<br />
+      
+      Map: <a href="http://hotelhelikon.hu/en/terkep">www.hotelhelikon.hu</a><br />
+    
+    </p>
+    <p><a name="location-flight"></a><strong>Travelling by flight:</strong><br />
+      
+      <a href="http://www.bud.hu/english" title="Liszt Ferenc Airport, Budapest" alt"Liszt Ferenc Airport, Budapest">Liszt Ferenc Airport, Budapest</a><br />
+      
+      <a href="http://www.hevizairport.com/en" title="Heviz Airport, Sarmellek, Lake Balaton" alt"Heviz Airport, Sarmellek, Lake Balaton">Heviz Airport, Sarmellek, Lake Balaton</a><br />
+      
+      From there <a href="https://maps.google.com/maps/ms?msid=203460912337888157866.0004ddfe19c2d8775a08b&msa=0" title="by car" alt"by car">by car</a>
+    </p>
+    <p><a name="location-car"></a><strong>Travelling by car:</strong><br />
+      
+      Budapest - Keszthely:  <a href="https://maps.google.com/maps/ms?msid=203460912337888157866.0004ddfe19c2d8775a08b&msa=0" title="Budapest - Keszthely" alt"Budapest - Keszthely">between 2-3 hours</a>
+    </p>  
+    <p><a name="location-train"></a><strong>Travelling by train:</strong><br />
+      
+      Budapest - Keszthely: between 3-4 hours<br />
+      
+      For a timetable please visit: <a href="http://elvira.mav-start.hu" title="Travelling by train" alt"Travelling by train">elvira.mav-start.hu</a> (HU)
+    </p>  
+    <p><a name="location-bus"></a><strong>Travelling by bus:</strong><br />
+      
+      Budapest - Keszthely: between 2-4 hours<br />
+      
+      For timetable please visit: <a href="http://ujmenetrend.cdata.hu/uj_menetrend/volan/" title="Travelling by bus" alt"Travelling by bus">ujmenetrend.cdata.hu</a> (HU)
+    </p>
   </div>
 </div>
