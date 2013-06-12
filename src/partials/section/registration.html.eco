@@ -1,11 +1,122 @@
 <div class="content container_12">      
   <div class="wrapper">
     <h2 class="section-title"><%= @labels['registration'] %></h2>
-    <p>Registrations will be open soon. To get the latest updates about registration and ticket info, <a href="#newsletter">subscribe to our newsletter</a> and <a href="#twitter">follow us on twitter.</a></p>
-    <h2>Ticket Information</h2>
+    
+    <h3 class="section-subtitle">Additional information</h3>
+
+    <p>Have you heard about the famous Hungarian cousine? You can try it each day at Drupalaton.</p>
+    
+    <p>So that you can focus on the event, we arranged daily lunches at Hotel Helikon.</p>
+    
+    <p>Lunch menus and prices: 2.500 HUF/person/lunch ? 3 course lunch</p>
+    
+    <p>Optional: soup (2 different) + main dish (2 different + 1 vegetarian) + cake)</p>
+    
+    <p>The lunch does not include drinks.</p>
+    
+    <ul>
+    	<li>Friday: +9 EUR</li>
+    	<li>Saturday: +9 EUR</li>
+    	<li>Sunday: +9 EUR</li>
+    </ul>
+
+    <p>I would like to buy a community ticket: +30 EUR</p>
+    
+    <h3 class="section-subtitle">Ticket Information</h3>
     <p>The ticket for the event costs 30 EUR which includes the welcome package and the usual beverages (coffee, soft drinks) and snacks during the four days.</p>
 
     <p>Please consider becoming an individual sponsor, which will get you a surprise gift and allows us to help more students to attend as well. Not to mention the bonus karma.</p>
     
+    <p><a href="http://drupalaton.eventbrite.com/" class="tab-button">Registration</a></p>
+    
+    <h3 class="section-subtitle">ACCOMMODATION</h3>
+
+    <p>In order to make your stay more convenient, we reserved rooms at Hotel Helikon, the venue of the event. </p>
+  </div>
+</div>
+
+<div class="content container_12">      
+  <div class="wrapper">
+    <div class="tabs">
+      <h2 class="first"><a href="#hotel-helikon" class="tab-open">Helikon hotel</a></h2>
+      <h2 class="middle"><a href="#tokaji-panzio">Pension Tokajer</a></h2>
+      <h2 class="last"><a href="#hotel-via">Hotel VIA</a></h2>
+    </div>  
+  </div>
+</div>
+<div class="tab-content" id="hotel-helikon-tab">
+  <div class="content container_12">      
+    <div class="wrapper">
+      
+      <p>In order to make your stay more convenient, we reserved rooms at Hotel Helikon, the venue of the event. (<a href="http://hotelhelikon.hu/en">hotelhelikon.hu/en</a>)</p>
+      
+      <p>Due to the high season please book your room in advance.</p>
+      
+      <p>Please mention „Drupalaton” when booking online <a href="http://hotelhelikon.hu/en/szobak">here</a> or by phone or email <a href="http://hotelhelikon.hu/en/kapcsolat">here</a> to get special discount prices.</p>
+      
+      <p>„Drupalaton” room rates:</p>
+      
+      <ul>
+      	<li>Economy twin/double room: 8.500 HUF/night/person</li>
+      	<li>Economy single room: 10.900 HUF/night/person</li>
+      	<li>Standard twin/double room: 9.500 HUF/night/person</li>
+      	<li>Standard single room: 12.500 HUF/night/person</li>
+      </ul>
+      
+      <p>Please note, that there is no air-conditioning in the rooms.</p>
+      
+      <p>The price does not include the 390 HUF/night/person tourist tax.</p>
+      
+      <p>The price includes the following: room with half board (buffet breakfast, dinner), use of the swimming pool, sauna and fitness room, free WIFI in the common areas of the hotel, VAT.</p>
+      
+      <p>Parking: free</p>
+    </div>
+  </div>
+</div>
+<div class="tab-content invisible" id="tokaji-panzio-tab">
+  <div class="content container_12">      
+    <div class="wrapper">
+      <p>A nice pension within walking distance from the conference venue. Single, double rooms and apartments are available.</p>
+      
+      <p>For more information please visit their <a href="http://www.pensiontokajer.hu/indexenglish.htm">website</a></p>
+      
+      <p>Please book directly by email or phone <a href="http://www.pensiontokajer.hu/htm/english/Contact%20us.htm">here</a></p>
+      
+      <p>Room rates <a href="http://www.pensiontokajer.hu/htm/english/Roomrates.htm">here</a></p>
+      
+      <p>During „Drupalaton” only House A and House B are available.</p>
+      
+      <p>The price includes:</br>
+      
+      2 outdoor swimming- pools, heated indoor swimming pool, heated Jacuzzi, steam cabin, Finnish sauna, infra sauna, salt cabin, fitness room, bicycles, table tennis, table football, Wi-Fi Internet (also in the rooms, but stronger sign in common areas) closed parking for cars.
+      </p>
+      <p>The price does not include the 390 HUF/night/person tourist tax.</p>
+      
+      <p>Half of the rooms are equipped with air conditioners. The usage of the air conditioner costs 5,-Euro/day.</p>
+      
+      <p>Due to the high season please book your room in advance.</p>
+    
+    </div>
+  </div>
+</div>
+<div class="tab-content invisible" id="hotel-via-tab">
+  <div class="content container_12">      
+    <div class="wrapper">
+<p>This hotel is also quite close to the venue, single, double, triple rooms are available. The quality of this accommodation is basic, please note that there is no air-conditioning, TV or Wi-Fi.
+
+<p>Special room rates:</p>
+
+<ul>
+	<li>Single room: 9.700 HUF/room/night</li>
+	<li>Double/Twin room: 13.500 HUF/room/night</li>
+	<li>Triple room: 18.000 HUF/room/night</li>
+</ul>
+
+<p>The price does not include the 390 HUF/night/person tourist tax.
+
+<p>Due to the high season please book your room in advance.
+
+<p>Please mention „Drupalaton” when booking by email or phone, more information <a href="http://www.hotelvia.hu/english">here</a>.
+    </div>
   </div>
 </div>
