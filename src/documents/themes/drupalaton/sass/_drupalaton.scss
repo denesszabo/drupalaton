@@ -242,13 +242,12 @@ section {
 
   p {
     a {
-      //color: $sectiontitle;
-      color:#fff;
+      color:#8abad7;
       @include text-shadow(0 -2px #082637);
       transition: color 1s;
       
       &:hover {
-        color: $links;
+        text-decoration: underline;
       }
     }
   }
