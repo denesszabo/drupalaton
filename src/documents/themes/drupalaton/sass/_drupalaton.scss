@@ -518,6 +518,15 @@ div.social {
 }
 // tablet and small screen
 @media all and (min-width: 600px) and (max-width: 999px) {
+  section.keynote {
+    h2.section-title {
+      padding-left: 25px;
+    }
+    .user {
+      float: none;
+      padding-left: 25px;
+    }
+  }
   #nav ul li {
     margin: 0 5px;
     
@@ -609,6 +618,15 @@ div.social {
   body {
     max-width: 599px;
     min-width: 100px;
+  }
+  section.keynote {
+    h2.section-title {
+      padding-left: 15px;
+    }
+    .user {
+      float: none;
+      padding-left: 10px;
+    }
   }
   .container_12 {
     width: 100%;
