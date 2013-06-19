@@ -31,9 +31,9 @@
   <div class="content container_12">      
     <div class="wrapper">
       <div class="tabs">
-        <h2 class="first"><a href="#kspeaker-robert" class="tab-open">About Robert</a></h2>
-        <h2 class="middle"><a href="#kspeaker-swentel">About Swentel</a></h2>
-        <h2 class="last"><a href="#kspeaker-bram">About Bram</a></h2>
+        <h2 class="first"><a href="#kspeaker-robert" class="tab-open"><span>About</span> Robert</a></h2>
+        <h2 class="middle"><a href="#kspeaker-swentel"><span>About</span> Kristof</a></h2>
+        <h2 class="last"><a href="#kspeaker-bram"><span>About</span> Bram</a></h2>
       </div>  
     </div>
   </div>
