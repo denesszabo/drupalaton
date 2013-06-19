@@ -1,0 +1,85 @@
+<section class="keynote">
+  <div class="content container_12">
+    <div class="keynote-wrapper">
+      <h2 class="section-title">Keynote speakers</h2>
+      <div class="user first">
+        <div class="speaker-name">Robert Douglass</div>
+        <div class="speaker-title">open source software<br />specialist and strategist</div>
+        <div class="image">
+        </div>
+      </div>
+      <div class="user">
+        <div class="speaker-name">Swentel - <br />Kristof De Jaeger</div>
+        <div class="speaker-title">web developer</div>
+        <div class="image">
+          <img src="https://dl.dropboxusercontent.com/u/743951/swent.png" alt="Swentel - Kristof De Jaeger" />
+        </div>
+      </div>
+      <div class="user last">
+        <div class="speaker-name">Bram Goffings</div>
+        <div class="speaker-title">Drupal developer and<br />community manager</div>
+        <div class="image">
+          <img src="https://dl.dropboxusercontent.com/u/743951/Bram_Goffings.png" alt="Bram Goffings" />
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="content container_12">      
+    <div class="wrapper">
+      <div class="tabs">
+        <h2 class="first"><a href="#kspeaker-robert" class="tab-open">About Robert</a></h2>
+        <h2 class="middle"><a href="#kspeaker-swentel">About Swentel</a></h2>
+        <h2 class="last"><a href="#kspeaker-bram">About Bram</a></h2>
+      </div>  
+    </div>
+  </div>
+  <div class="tab-content" id="kspeaker-robert-tab">
+    <div class="content container_12">      
+      <div class="wrapper">
+        <p>Robert is an open source software specialist and strategist who has been involved with Drupal since 2004. He currently contributes 997 commits to contrib modules on Drupal.org. His specialities are Solr search, performance tuning, software localization and translation. He wrote and was a technical editor of several books about Drupal 7 Development. He has been a member of the Drupal Association General Assembly since 2006. He used to work at Acquia as a consultant and advisor, but since 2012 he works as a director at Product Operations at Commerce Guys.</p>
+      </div>
+    </div>
+  </div>
+  <div class="tab-content invisible" id="kspeaker-swentel-tab">
+    <div class="content container_12">      
+      <div class="wrapper">
+        <p>Kristof has been a web developer ever since PHP 3 came out. He got hooked on Drupal after experimenting with tons of other frameworks including writing his own. He has written and maintains a dozen modules, writes patches for Drupal core and will review every single line of code that goes out into production. He's not afraid to dive into code and research best performance practices in order to save kittens. His passion is so big he got a Druplicon tattoo on his wrist. Talk about dedication!</p>
+        <p>Thinks a day should have 36 hours so he can finally release that one rock album to conquer the world and retire on his own private island. Builds arcade machines in the meantime to relive his childhood.</p>
+        
+        <h3 class="section-subtitle">Session title:</h3> 
+        <p>Configuration management in Drupal 8	
+        Co-presenter: Gabor Hojtsy</p>
+        
+        <h3 class="section-subtitle">Short session summary:</h3>
+        <p>Configuration management in Drupal 8: goodbye tables, hello YAML files.</p>
+        
+        <h3 class="section-subtitle">Full session summary:</h3>
+        <p>The session targets sitebuilders who will work with the new configuration management, and developers who will get an introduction to the Configuration API in Drupal 8.</p>  
+      </div>
+    </div>
+  </div>
+  <div class="tab-content invisible" id="kspeaker-bram-tab">
+    <div class="content container_12">      
+      <div class="wrapper">
+        <p>Bram  is a Drupal developer and community manager at Nascom (Belgium). He  became fascinated with Drupal while getting his computer science degree. Afterwards, he immediately started working at Nascom, where part  of his job is preparing the Nascom team for Drupal 8. He is also a  Drupal core contributor and co-maintainer of some modules, including Display Suite. Last but not least: he plays a mean game of ping pong.</p>
+        
+        <h3 class="section-subtitle">Session title:</h3> 
+        <p>Display Suite: the future of your display </p>
+        
+        <h3 class="section-subtitle">Short session summary:</h3> 
+        <p>Display suite, the future of your display. Prepare yourself for the future. Prepare yourself for the new Display Suite api.</p>
+        
+        <h3 class="section-subtitle">Full session summary:</h3> 
+        <p>Drupal 8 is just around the corner. And while everyone is anxiously waiting for the release, contrib land is catching up and preparing all their precious modules for the newest Drupal version.</p>
+        
+        <p>In this session we will explain what has changed in Display Suite and how we used the brand new drupal 8 api's to increase the quality of the Display Suite code. "The future of your display" comes with a new api. Examples will be shown and there will be time to discuss the api so we can improve it if needed.</p>
+        
+        <p>We will also talk about the functional differences of the Drupal 8 version of Display Suite.</p>
+        
+        <p>Some keywords: config, plugins, twig, form modes, ...</p>      
+      </div>
+    </div>
+  </div>
+</section>
+

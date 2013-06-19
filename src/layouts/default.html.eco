@@ -34,6 +34,7 @@
 
     <%-@partial('nav.html.eco', @)%>
     <%-@partial('header.html.eco', @)%>
+    <%-@partial('keynote_speakers.html.eco', @)%>
 
     <!-- CONTENT -->
         <%- @content %>
@@ -41,7 +42,6 @@
   </div>
 
   </div>
-
 
   <div class="newsletter" id="newsletter">
     <div class="container_12">
