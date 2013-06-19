@@ -245,6 +245,14 @@ section.keynote {
     font-weight: bold;    
     color: $sectiontitle-40;
   }
+  .speaker-nick {
+    color: #fff;
+    font-size: $base-font-size + 8;
+    font-family: $oswald;
+    line-height: 110%;
+    text-transform: uppercase;
+    font-weight: bold;    
+  }
   .user {
     float: left;
     margin: 30px 7px 22px 7px;

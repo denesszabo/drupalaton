@@ -4,12 +4,14 @@
       <h2 class="section-title">Keynote speakers</h2>
       <div class="user first">
         <div class="speaker-name">Robert Douglass</div>
+        <div class="speaker-nick">robertDouglass</div>
         <div class="speaker-title">open source software<br />specialist and strategist</div>
         <div class="image">
         </div>
       </div>
       <div class="user">
         <div class="speaker-name">Swentel - <br />Kristof De Jaeger</div>
+        <div class="speaker-nick">swentel</div>
         <div class="speaker-title">web developer</div>
         <div class="image">
           <img src="https://dl.dropboxusercontent.com/u/743951/swent.png" alt="Swentel - Kristof De Jaeger" />
@@ -17,6 +19,7 @@
       </div>
       <div class="user last">
         <div class="speaker-name">Bram Goffings</div>
+        <div class="speaker-nick">aspilicious</div>
         <div class="speaker-title">Drupal developer and<br />community manager</div>
         <div class="image">
           <img src="https://dl.dropboxusercontent.com/u/743951/Bram_Goffings.png" alt="Bram Goffings" />
