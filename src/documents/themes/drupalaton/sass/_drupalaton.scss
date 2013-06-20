@@ -221,6 +221,7 @@ section.keynote {
   .tabs h2 {
     a {
       background-color: $keynotetab;
+      margin-top: -1px;
     }
     a.tab-open {
       background-color: $links;
