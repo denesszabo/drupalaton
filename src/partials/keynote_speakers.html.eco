@@ -7,6 +7,7 @@
         <div class="speaker-nick">robertDouglass</div>
         <div class="speaker-title">open source software<br />specialist and strategist</div>
         <div class="image">
+          <img src="https://dl.dropboxusercontent.com/u/743951/robert-douglas.png" alt="Robert Douglass" />
         </div>
       </div>
       <div class="user">
@@ -40,7 +41,17 @@
   <div class="tab-content" id="kspeaker-robert-tab">
     <div class="content container_12">      
       <div class="wrapper">
-        <p>Robert is an open source software specialist and strategist who has been involved with Drupal since 2004. He currently contributes 997 commits to contrib modules on Drupal.org. His specialities are Solr search, performance tuning, software localization and translation. He wrote and was a technical editor of several books about Drupal 7 Development. He has been a member of the Drupal Association General Assembly since 2006. He used to work at Acquia as a consultant and advisor, but since 2012 he works as a director at Product Operations at Commerce Guys.</p>
+        <p>Robert has worked with Drupal, full-time, since 2004. He wrote the first book that was published about Drupal ("Building Online Communities with Drupal, phpBB and Wordpress"), has been the technical editor of all three editions of "Pro Drupal Development", was a contributing author to “The Definitive Guide to Drupal 7”, and contributed to "Building e-commerce Sites with Drupal Commerce Cookbook".</p>
+
+        <p>Robert was one of the first members of the Drupal Association General Assembly, a position he held from 2006 to 2011. In 2008 he co-founded the Drupal-Initiative, Germany's non-profit for the promotion of Drupal. After 2-year tenure as the Vice President of that organization, he helped coordinate the election of a new Board and handed over control in 2010. </p>
+        
+        <p>As a developer he is best known for his contributions to the Memcache and Solr modules.</p>
+        
+        <h3 class="section-subtitle">Session title:</h3> 
+        <p>Identify and sieze the next Drupal opportunities </p>
+        
+        <h3 class="section-subtitle">Full session summary:</h3>
+        <p>The Drop is always moving, which means that the people who use Drupal for fun and profit need to keep moving too. The skills that make you a superstar today may not be relevant tomorrow, and your current business strategy might be on the way out. This session will focus on identifying the big opportunities that Drupal offers.</p>
       </div>
     </div>
   </div>
