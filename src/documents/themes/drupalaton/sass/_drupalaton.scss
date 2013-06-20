@@ -265,9 +265,12 @@ section.keynote {
   .keynote-wrapper {
     overflow: hidden;
   }
+  .user .speaker-title {
+    margin-bottom: 49px;
+  }
   .user.first .speaker-title,
   .user.last .speaker-title {
-    margin-bottom: 36px;
+    margin-bottom: 0;
   }
 }
 .tabs {
